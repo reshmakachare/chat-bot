@@ -290,14 +290,17 @@ form .textarea textarea:focus::placeholder {
 
 }
 
-
 @media (max-width: 800px) {
 	.boxwrap .title_text {
-		line-height: 21px;
-
-
+		
+	display:none;
 	}
-
+	.boxwrap {
+	
+	background: #fff0;
+	box-shadow: 0px 15px 20px rgb(0 0 0 / 0%);
+	
+       }
 
 	h2 {
 
